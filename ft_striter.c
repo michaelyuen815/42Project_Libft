@@ -12,7 +12,7 @@
 
 void	ft_striter(char *s, void (*f)(char *))
 {
-	if (!s)
+	if (!s || !f)
 		return ;
 	while (*s)
 		f(s++);

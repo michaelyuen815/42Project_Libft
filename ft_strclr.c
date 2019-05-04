@@ -12,6 +12,8 @@
 
 void	ft_strclr(char *s)
 {
-	while (*s && s)
+	if (!s)
+		return ;
+	while (*s)
 		*s++ = 0;
 }
