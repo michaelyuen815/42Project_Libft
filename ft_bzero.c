@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**rewrite bytes functions bzero in lib <string.h>
+**which reset value to 0 for 1st parameter pointer (*s) with size_t (n)
+**use function ft_memset with value 0 and size_t n
+*/
+
 void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);

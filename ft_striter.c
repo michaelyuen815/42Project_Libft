@@ -10,6 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+**String functions of applying pointer function *f for each of pointer *s
+*/
+
 void	ft_striter(char *s, void (*f)(char *))
 {
 	if (!s || !f)

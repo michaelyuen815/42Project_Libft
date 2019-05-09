@@ -13,14 +13,14 @@
 #include "libft.h"
 
 /*
-**ft_atoi demonstrates function atoi in lib <string.h>,
-**which returns integer found at the beginning of 1st parameter
+**rewrite string function atoi in lib <string.h>,
+**which returns integer found at the beginning of 1st parameter (*str)
 **here's the behavior:
 **Case 1: "123"		>> 123
 **Case 2: "123.12"	>> 123 (return int)
 **Case 3: "123abc"	>> 123 (ignore char)
 **Case 4: "-123ab"	>> -123 (concern "+/-" sign)
-**Case 5: " 123ab"	>> 123 (allow space before num)
+**Case 5: " 123ab"	>> 123 (allow space/tab before num)
 **Case 6: "ab123"	>> 0 (num must be at the beginning)
 **Case 7: "- 123ab"	>> 0 (no space allowed between signed and number)
 */

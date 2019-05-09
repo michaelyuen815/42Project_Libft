@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**String functions of returning string of
+**return of pointer function *f to every character in string *s
+*/
+
 char	*ft_strmap(char const *s, char (*f)(char))
 {
 	size_t	len;

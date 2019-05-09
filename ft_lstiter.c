@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**linked list function of applying pointer function (f)
+**to every node in linked list (*lst)
+*/
+
 void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))
 {
 	if (!lst)

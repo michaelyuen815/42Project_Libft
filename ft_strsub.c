@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**String functions of returning a string
+**from start(th) position and len character with allocated memory
+**Return NULL when start + len > size of *s
+*/
+
 char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
 	char *ret;

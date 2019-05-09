@@ -12,6 +12,13 @@
 
 #include "libft.h"
 
+/*
+**linked list function for adding a new node (*new)
+**to beginning of linked list (pointer of *alst)
+**1. link new *node to *alst
+**2. change pointer of alst to new
+*/
+
 void	ft_lstadd(t_list **alst, t_list *new)
 {
 	new->next = *alst;

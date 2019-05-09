@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strncat in lib <string.h>
+**append string *src to end of string *dest up to n characters
+**return string *dest
+*/
+
 char	*ft_strncat(char *dest, const char *src, size_t n)
 {
 	size_t len;

@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strnstr in lib <string.h>
+**return the pointer in *haystack of where *needle is found
+**return NULL if *needle is not found
+*/
+
 char	*ft_strstr(const char *haystack, const char *needle)
 {
 	size_t i;

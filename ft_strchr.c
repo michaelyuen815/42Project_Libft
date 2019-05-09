@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+**rewrite string functions strchr in lib <string.h>
+**1. return pointer of position 1st integer value c is found in string *str
+**2. return NULL if int c is not found in string *str
+*/
+
 char	*ft_strchr(const char *str, int c)
 {
 	while (*str && *str != c)

@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**byte function of del a byte pointer (*ap) by:
+**1. free the memory of *ap &
+**2. change value of *ap to NULL
+*/
+
 void	ft_memdel(void **ap)
 {
 	if (ap)

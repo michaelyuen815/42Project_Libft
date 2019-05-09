@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+**ouptut functions of writing integer (n) with standard output
+*/
+
 void	ft_putnbr(int n)
 {
 	unsigned int tmp;

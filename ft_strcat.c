@@ -10,6 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+**rewrite string functions strcat in lib <string.h>
+**append string *src to end of string *dest and return string *dest
+*/
+
 #include "libft.h"
 
 char	*ft_strcat(char *dest, const char *src)

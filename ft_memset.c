@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite bytes functions memset in lib <string.h>
+**setting value c to an existing pointer (*b) with len bytes
+*/
+
 void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char *ch_b;

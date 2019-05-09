@@ -13,6 +13,7 @@
 /*
 **check single char is number
 **if yes, return 1. otherwise, return 0
+**number characters are between 48 and 57
 */
 
 int	ft_isdigit(int c)

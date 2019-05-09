@@ -12,6 +12,13 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strlcat in lib <string.h>
+**append string *src to end of string *dest at most size - size of *dest - 1
+**return total size of *dest and *src if size > size of dest
+**return size + size of src if size <= size of dest
+*/
+
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t len;

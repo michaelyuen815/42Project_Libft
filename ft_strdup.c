@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strdup in lib <string.h>
+**return copied value of string *str with allocated memory
+*/
+
 char	*ft_strdup(const char *str)
 {
 	size_t	i;

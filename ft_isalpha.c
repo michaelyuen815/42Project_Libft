@@ -15,6 +15,8 @@
 /*
 **check single char is alphabet(ignore case)
 **if yes, return 1. otherwise, return 0
+**Uppercase letters are between 65 and 90
+**Lowercase letters are between 97 and 122
 */
 
 int	ft_isalpha(int c)

@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+**ouptut functions of writing integer (n) with file descriptor (fd)
+*/
+
 void	ft_putnbr_fd(int n, int fd)
 {
 	long tmp;

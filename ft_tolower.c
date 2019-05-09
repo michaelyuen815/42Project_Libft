@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**String functions of return lowercase char if int c is uppercase char
+**return same value if int c is not uppercase char
+*/
+
 int	ft_tolower(int c)
 {
 	if (BL_UP(c))

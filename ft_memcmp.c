@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**rewrite bytes function of memcmp in lib <string.h>
+**return difference of first differing bytes between *s1 and *s2
+**if no difference is not found within n bytes, return 0
+*/
+
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*ch_s1;

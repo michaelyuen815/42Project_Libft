@@ -6,13 +6,18 @@
 /*   By: chyuen <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/03 11:50:26 by chyuen            #+#    #+#             */
-/*   Updated: 2019/05/03 12:09:35 by chyuen           ###   ########.fr       */
+/*   Updated: 2019/05/07 15:49:32 by chyuen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+/*
+**linked list function of creating a new linked list
+**with pointer function (f) and parameter linked list (*lst)
+*/
+
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
 	t_list *ret;
 	t_list *tmp;

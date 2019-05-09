@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+**String functions of creating a new blank string with allocated memory
+*/
+
 char	*ft_strnew(size_t size)
 {
 	char *ret;

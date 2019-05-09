@@ -12,6 +12,18 @@
 
 #include "libft.h"
 
+/*
+**String functions of splitting string *s based on char c
+**and return a 2nd level pointer of consisting each splitted string
+**
+**1. use function ft_ccount to cal nbr of char c in string *s
+**2. set initial value i_st to 0 to indicate start point of 1st string
+**3. use ft_strchr or ft_strlen to determine length of 1st string (i_len)
+**4. use function ft_strsub to create splitted string with i_len & i_st
+**5. update i_st by adding i_len and increment of checking char c
+**6. repeat step 3 - 5 to create other strings
+*/
+
 static int		ft_splitmain(char **ret, char const *s, char c, size_t len)
 {
 	size_t i;

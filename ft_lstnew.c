@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**linked list function of creating a new node
+**with assigning value (*content) and size (content_size)
+**keep content_size 0 in node if content is NULL
+*/
+
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {
 	t_list *ret;

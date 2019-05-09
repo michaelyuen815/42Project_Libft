@@ -10,6 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+**String functions of changing all character in *s to NULL
+*/
+
 void	ft_strclr(char *s)
 {
 	if (!s)

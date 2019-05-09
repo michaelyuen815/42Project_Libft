@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strlen in lib <string.h>
+**return size of string *str
+*/
+
 size_t	ft_strlen(const char *str)
 {
 	size_t ret;

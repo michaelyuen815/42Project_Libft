@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+**rewrite string functions strcmp in lib <string.h>
+**return difference of first differing character between *s1 and *s2
+**return 0 if *s1 and *s2 are identical
+*/
+
 int	ft_strcmp(const char *s1, const char *s2)
 {
 	unsigned char *us1;

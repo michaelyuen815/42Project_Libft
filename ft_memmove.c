@@ -12,6 +12,16 @@
 
 #include "libft.h"
 
+/*
+**rewrite bytes function of memcpy in lib <string.h>
+**memcpy and memmove are the same if there is no overlapping
+**If there is overlapping:
+**memcpy copy the overlapped value into dst
+**memmove copy origin value of src into dst
+**
+**drawback of memove: extra time of processing to prevent overlap
+*/
+
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	size_t			i;

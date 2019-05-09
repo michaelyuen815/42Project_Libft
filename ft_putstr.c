@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite ouptut functions puts in lib <stdio.h>
+**write string parameter (*s) with standard output
+*/
+
 void	ft_putstr(char const *s)
 {
 	write(1, s, ft_strlen(s));

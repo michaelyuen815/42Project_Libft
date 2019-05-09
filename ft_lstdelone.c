@@ -12,6 +12,14 @@
 
 #include "libft.h"
 
+/*
+**linked list function of deleting a node (pointer of *alst)
+**given del pointer function (del)
+**Step 1: run del pointer function for clearing content
+**Step 2: free memory of node
+**Step 3: set value of node to NULL
+*/
+
 void	ft_lstdelone(t_list **alst, void (*del)(void*, size_t))
 {
 	if (!*alst)

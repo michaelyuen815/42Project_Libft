@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strncpy in lib <string.h>
+**copy string *src to string *dest up to n char and return string *dest
+*/
+
 char	*ft_strncpy(char *dest, const char *src, size_t len)
 {
 	size_t i;

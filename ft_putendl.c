@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**ouptut functions of writing string (*s) followed by a newline
+**with standard output
+*/
+
 void	ft_putendl(char const *s)
 {
 	ft_putstr(s);

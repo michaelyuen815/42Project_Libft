@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**rewrite bytes function of memchr in lib <string.h>
+**return the pointer where value c is found.
+**if value c is not found within n bytes, return NULL
+*/
+
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t			i;

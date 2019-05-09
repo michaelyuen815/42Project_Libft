@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**bytes function of creating a new pointer
+**with size (size) & initial value 0
+*/
+
 void	*ft_memalloc(size_t size)
 {
 	void	*ret;

@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+**String functions of checking whether *s1 and *s2 are identical
+*/
+
 int	ft_strequ(char const *s1, char const *s2)
 {
 	if (!s1 || !s2)

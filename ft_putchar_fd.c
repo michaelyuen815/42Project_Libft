@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite ouptut functions fputc in lib <stdio.h>
+**write character parameter (c) with file descriptor (fd)
+*/
+
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);

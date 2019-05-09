@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**rewrite string functions strncmp in lib <string.h>
+**return difference of first differing char between *s1 and *s2 within n char
+**return 0 if *s1 and *s2 are identical within n char
+*/
+
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	unsigned char *us1;

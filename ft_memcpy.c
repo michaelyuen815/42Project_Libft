@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**rewrite bytes function of memcpy in lib <string.h>
+**copy n bytes from src to det and return pointer of *dst
+*/
+
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	unsigned char	*ch_dst;

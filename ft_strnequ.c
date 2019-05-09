@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+**String functions of checking whether *s1 and *s2 are identical within n char
+*/
+
 int	ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	if (!s1 || !s2)

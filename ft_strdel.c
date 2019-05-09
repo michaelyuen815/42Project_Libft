@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**String functions of clearing a string (*as) by:
+**1. free the memory of *as
+**2. set value of *as to NULL
+*/
+
 void	ft_strdel(char **as)
 {
 	if (as)

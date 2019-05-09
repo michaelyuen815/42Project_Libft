@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**Reverse function of ft_atoi
+**which return a string from integer n
+**method: storing the digits into tmp[] starting from single digit
+*/
+
 char	*ft_itoa(int n)
 {
 	int		sign;
